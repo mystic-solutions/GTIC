@@ -1,0 +1,157 @@
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\ApplicationInsights.config
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\csc.exe
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\vbc.exe
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\VBCSCompiler.exe
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\GTIC.dll.config
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\GTIC.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\GTIC.pdb
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Antlr3.Runtime.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.Web.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.WindowsServer.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.ApplicationInsights.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.Web.Infrastructure.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Newtonsoft.Json.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.Helpers.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.Mvc.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.Optimization.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.Razor.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.WebPages.Deployment.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.WebPages.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.WebPages.Razor.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\WebGrease.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.Web.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.AI.WindowsServer.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.ApplicationInsights.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.Helpers.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.Mvc.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.Optimization.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.Razor.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.WebPages.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.WebPages.Deployment.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\System.Web.WebPages.Razor.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Antlr3.Runtime.pdb
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\bin\Newtonsoft.Json.xml
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\obj\Debug\GTIC.dll
+c:\users\asgharm4\documents\visual studio 2015\Projects\GTIC\GTIC\obj\Debug\GTIC.pdb
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\ApplicationInsights.config
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\csc.exe
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\vbc.exe
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\VBCSCompiler.exe
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\GTIC.dll.config
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\GTIC.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\GTIC.pdb
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Antlr3.Runtime.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.Web.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Newtonsoft.Json.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.Helpers.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.Mvc.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.Optimization.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.Razor.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.WebPages.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.WebPages.Razor.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\WebGrease.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.Web.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.Helpers.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.Mvc.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.Optimization.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.Razor.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.WebPages.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\System.Web.WebPages.Razor.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Antlr3.Runtime.pdb
+C:\Users\saleemf\Desktop\GTIC\GTIC\bin\Newtonsoft.Json.xml
+C:\Users\saleemf\Desktop\GTIC\GTIC\obj\Debug\GTIC.csprojResolveAssemblyReference.cache
+C:\Users\saleemf\Desktop\GTIC\GTIC\obj\Debug\GTIC.dll
+C:\Users\saleemf\Desktop\GTIC\GTIC\obj\Debug\GTIC.pdb
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\ApplicationInsights.config
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\csc.exe
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\System.Collections.Immutable.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\vbc.exe
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\VBCSCompiler.exe
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\roslyn\VBCSCompiler.exe.config
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\GTIC.dll.config
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\GTIC.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\GTIC.pdb
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Antlr3.Runtime.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.DependencyCollector.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.Web.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.WindowsServer.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.ApplicationInsights.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.Web.Infrastructure.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Newtonsoft.Json.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.Helpers.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.Mvc.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.Optimization.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.Razor.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.WebPages.Deployment.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.WebPages.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.WebPages.Razor.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\WebGrease.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.DependencyCollector.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.Web.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.AI.WindowsServer.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.ApplicationInsights.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.Helpers.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.Mvc.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.Optimization.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.Razor.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.WebPages.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.WebPages.Deployment.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\System.Web.WebPages.Razor.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Antlr3.Runtime.pdb
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\bin\Newtonsoft.Json.xml
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\obj\Debug\GTIC.dll
+D:\Fiverr Delivered Work\GTIC v1.2\GTIC\GTIC\obj\Debug\GTIC.pdb

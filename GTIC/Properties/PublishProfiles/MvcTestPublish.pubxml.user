@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Learning\MvcPublish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app-assets/css/adaptive.css">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/css/bootstrap.css">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/css/flexnav.css">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/css/font-awesome.css">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/css/owl.carousel.css">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/css/owl.theme.css">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/css/style.css">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/fonts/fontawesome-webfont.eot">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/fonts/fontawesome-webfont.svg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/fonts/fontawesome-webfont.woff">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/fonts/FontAwesome.otf">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/about-us.jpg">
+      <publishTime>04/17/2019 15:48:38</publishTime>
+    </File>
+    <File Include="app-assets/images/adress.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/arr-d.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/arr.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/arr2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/arr3.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/arr_com.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/banner_bg.jpg">
+      <publishTime>04/16/2019 15:48:58</publishTime>
+    </File>
+    <File Include="app-assets/images/blog-post-1.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/blog-post-img-1.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/blog-sl.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/calculate_bg.jpg">
+      <publishTime>04/16/2019 15:23:48</publishTime>
+    </File>
+    <File Include="app-assets/images/com-1.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/com-2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/com-3.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/com-4.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/com-5.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/contact_bg.jpg">
+      <publishTime>04/16/2019 15:45:44</publishTime>
+    </File>
+    <File Include="app-assets/images/faq.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/faq2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/favicon.ico">
+      <publishTime>04/18/2019 18:48:56</publishTime>
+    </File>
+    <File Include="app-assets/images/flick1.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/flick2.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/flick3.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/flick4.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/flick5.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/flick6.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/flick7.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/flick8.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/f_b.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/f_b2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/f_b3.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/go-go.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/g_b.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/g_b2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/g_b3.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/g_icon.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/header_main.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/help.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/hr.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/indirect-1.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/li.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo.png">
+      <publishTime>04/18/2019 17:53:56</publishTime>
+    </File>
+    <File Include="app-assets/images/logo1-2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo1.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo2-2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo3-2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo3.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo4-2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo4.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo5-2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo5.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo6-2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo6.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/logo_2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/mail.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/mw.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/next.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/offer1.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/offer2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/offer3.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/offer4.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/offer5.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/offer6.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/offers_bg.png">
+      <publishTime>04/16/2019 14:48:02</publishTime>
+    </File>
+    <File Include="app-assets/images/phone.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/picture-1.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/plus_minus.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/post-author.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/post-button1.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/post-button2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/post-button3.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/post-video.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/post2.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/post3.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/post4.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/prev.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/quots.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/rec-post-1.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/rt-f.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/rt-g.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/rt-t.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/r_quots.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/solutions_bg.jpg">
+      <publishTime>04/16/2019 15:29:18</publishTime>
+    </File>
+    <File Include="app-assets/images/status.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/status_sm.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/subscr.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/team-member.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/team1.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/team2.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/team3.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/team4.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/team5.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/team6.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/testi1.png">
+      <publishTime>04/16/2019 15:32:48</publishTime>
+    </File>
+    <File Include="app-assets/images/testi2.png">
+      <publishTime>04/16/2019 15:41:56</publishTime>
+    </File>
+    <File Include="app-assets/images/testi3.png">
+      <publishTime>04/16/2019 15:42:30</publishTime>
+    </File>
+    <File Include="app-assets/images/tip1.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/tip1bg.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/tip2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/tip2bg.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/tip3.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/tip3bg.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/top-post-1.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/top-post-2.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/top-post-3.jpg">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/tr-g.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/t_b.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/t_b2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/t_b3.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/un-li.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/y_b.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/images/y_b2.png">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/js/bootstrap.min.js">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/js/contact_main.js">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/js/custom.js">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/js/flexnav.js">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/js/googlemaps.js">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/js/jflickrfeed.min.js">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/js/jquery.js">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="app-assets/js/owl.carousel.js">
+      <publishTime>04/16/2019 14:28:58</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>04/16/2019 14:20:08</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>04/16/2019 14:20:08</publishTime>
+    </File>
+    <File Include="bin/GTIC.dll">
+      <publishTime>04/18/2019 18:04:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>04/16/2019 14:19:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/16/2019 14:19:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/16/2019 14:19:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/16/2019 14:19:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/16/2019 14:19:48</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/16/2019 14:19:42</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/16/2019 14:20:10</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>04/17/2019 15:43:44</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>04/17/2019 16:01:46</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/18/2019 19:21:34</publishTime>
+    </File>
+    <File Include="Views/Home/shahan.cshtml">
+      <publishTime>04/18/2019 14:12:04</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>04/16/2019 14:19:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>04/18/2019 17:58:14</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>04/16/2019 14:19:42</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>04/16/2019 14:19:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/18/2019 21:45:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

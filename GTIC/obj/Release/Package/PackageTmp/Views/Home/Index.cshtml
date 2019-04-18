@@ -1,0 +1,605 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Responsive Template</title>
+    <meta name="keywords" content="Template" />
+    <meta name="description" content="Responsive Template" />
+    <meta name="author" content="Mark Pulman" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/app-assets/images/favicon.ico" type="image/x-icon" />
+    @Styles.Render("~/Content/css")
+</head>
+<body class="home_page_h">
+    <!-- Top -->
+    <div class="over_header">
+        <div class="container">
+            <div class="row">
+                <div class="over_header_ins col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="sotials_top col-lg-2 col-md-2 col-sm-12 col-xs-12"><a class="facebook" href="#"><img src="~/app-assets/images/f_b.png" alt="" /></a><a class="twitter" href="#"><img src="~/app-assets/images/t_b.png" alt="" /></a><a class="youtube" href="#"><img src="~/app-assets/images/y_b.png" alt="" /></a><a class="google" href="#"><img src="~/app-assets/images/g_b.png" alt="" /></a></div>
+                        <div class="text-right col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                            <span class="hr_last"><img src="~/app-assets/images/phone.png" alt="" />0207 018 6767</span>
+                            <span><img src="~/app-assets/images/mail.png" alt="" />Hello@govtaxincentives.com</span>
+                            <span><img src="~/app-assets/images/adress.png" alt="" />797 London Road, London, CR7 6AW</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header_type_1">
+        <div class="header-wrapper page_header">
+            <div id="fixblock" class="fixblock_main">
+                <div class="container">
+                    <div class="border_bottom col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12"><a class="logo" href="/"><img alt="" src="~/app-assets/images/logo.png" /></a></div>
+                            <nav class="menu col-lg-6 col-md-6 col-sm-4 col-xs-12">
+                                <div class="menu-button"><i class="fa fa-bars"></i></div>
+                                <ul class="flexnav" data-breakpoint="">
+                                    <li><a class="active" href="/">Home</a></li>
+                                    <li>
+                                        <a href="#features">Features</a>
+                                        <ul>
+                                            <li>
+                                                <a href="typography.html">Typography</a>
+                                                <a href="support.html">Support</a>
+                                                <a href="faq.html">FAQ</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#services">Services</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#">General Features</a>
+                                                <a href="services.html">Indirect Tax</a>
+                                                <a href="#">Inheritance tax</a>
+                                                <a href="#">International Tax</a>
+                                                <a href="#">Large Corporate</a>
+                                                <a href="#">Personal tax</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        @Html.ActionLink("About Us", "About", "Home")
+
+                                    </li>
+                                    @*<li>
+                                            <a href="#blog">Blog</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="blog.html">our blog</a>
+                                                    <a href="blog-post.html">single post</a>
+                                                    <a href="#">video post</a>
+                                                </li>
+                                            </ul>
+                                        </li>*@
+                                    <li>
+                                        @Html.ActionLink("Contact Us", "Contact", "Home")
+                                        @*<a href="home/contact"></a>*@
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="button_header col-lg-3 col-md-3 col-sm-4 col-xs-12"><a class="button_flat button_flat_menu" href="#">Find adviser</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header slider -->
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item">
+                <span class="slide_light_text">Choosing a</span><br />
+                <span class="slide_middle_text">Financial Advisor</span><br />
+                <span class="slide_small_text">We will help you take control of the things that matter most in your life</span><br />
+                <a class="button_fat" id="calc-btn" href="#calculate-section">Calculate</a>
+            </div>
+            @*<div class="item">
+                    <span class="slide_light_text">Reliable &</span><br />
+                    <span class="slide_middle_text">Trusted Advice</span><br />
+                    <span class="slide_small_text">Our company provides worry-free services you can always count on.</span><br />
+                    <a class="button_fat" href="#">Calculate</a>
+                </div>
+                <div class="item">
+                    <span class="slide_light_text">Personal</span><br />
+                    <span class="slide_middle_text">Advisor Services</span><br />
+                    <span class="slide_small_text">You may sleep tight while we are taking care of your finance issuses</span><br />
+                    <a class="button_fat" href="#">Calculate</a>
+                </div>*@
+        </div>
+        <!-- Header tips -->
+        <div class="container tips">
+            <div class="row">
+                <div class="tip_1 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="~/app-assets/images/tip1.png" alt="" /><br />
+                    <h4>Financial Planner</h4>
+                    <p>We will work through the process to identify your needs, goals and strategy, and put your plan into action</p>
+                </div>
+                <div class="tip_2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="~/app-assets/images/tip2.png" alt="" />
+                    <h4>Mortgage Advisor</h4>
+                    <p>We will give you independent advice and help you search over thousands of mortgages to find the right deal for you</p>
+                </div>
+                <div class="tip_3 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="~/app-assets/images/tip3.png" alt="" />
+                    <h4>Investment Advisor</h4>
+                    <p>Our professionals will provide you with independent and custom-tailored investment analysis and advice</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+    <!-- Content blocks -->
+    <section class="offer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="offer-section-heading col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h5>We Offer Services That Work</h5>
+                        <p>
+                            The wise man therefore always holds in these matters to this principle of selection:<br />
+                            he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
+                        <div class="offers">
+                            <img src="~/app-assets/images/offer1.png" alt="" /><br />
+                            <h4>General Features</h4>
+                            <p>But I must explain to you how all this mistaken<br /> idea of denouncing pleasure and praising</p>
+                        </div>
+                        <div class="offers">
+                            <img src="~/app-assets/images/offer2.png" alt="" /><br />
+                            <h4>Inheritance Tax</h4>
+                            <p> will give you a complete account of the<br /> system, and expound the actual</p>
+                        </div>
+                        <div class="offers offer_last">
+                            <img src="~/app-assets/images/offer3.png" alt="" /><br />
+                            <h4>Large Corporate</h4>
+                            <p>The master-builder of human happiness.<br /> No one rejects, dislikes, or avoids pleasure</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"></div>
+                    <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
+                        <div class="offers">
+                            <img src="~/app-assets/images/offer4.png" alt="" /><br />
+                            <h4>Indirect Tax</h4>
+                            <p>Because it is pleasure, but because those who do<br /> not know how to pursue pleasure rationally encounter</p>
+                        </div>
+                        <div class="offers">
+                            <img src="~/app-assets/images/offer5.png" alt="" /><br />
+                            <h4>International Tax</h4>
+                            <p>The wise man therefore always holds in these<br /> matters to this principle of selection</p>
+                        </div>
+                        <div class="offers offer_last">
+                            <img src="~/app-assets/images/offer6.png" alt="" /><br />
+                            <h4>Personal tax</h4>
+                            <p>He rejects pleasures to secure other greater pleasures,<br /> or else he endures pains to avoid worse pains</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Calculate section -->
+    <section id="calculate-section" class="calculate-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-7 col-md-9 col-sm-10 col-xs-12">
+                        <div class="row">
+                            <h5>Lease Calculator</h5>
+                            <div class="inputs">
+                                <div class="row">
+                                    <div class="input">
+                                        <label for="profit-loss-value">Profit/ Loss Amount</label>
+                                        <input id="profit-loss-value" placeholder="£" />
+                                    </div>
+                                    <div class="input">
+                                        <label for="exp-value">R&D Expenditure</label>
+                                        <input id="exp-value" placeholder="£" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input">
+                                        <label for="profit-radio">Profit making</label>
+                                        <input id="profit-radio" name="making-radio" value="profit" type="radio" />
+                                    </div>
+                                    <div class="input">
+                                        <label for="loss-radio">Loss making</label>
+                                        <input id="loss-radio" name="making-radio" value="loss" type="radio" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>Results based in the data entered above</p>
+                            <div class="inputs results">
+                                <div class="row">
+                                    <div class="input">
+                                        <label>Total Saving</label>
+                                        <input id="total-saving" disabled="disabled" value="£" />
+                                    </div>
+                                    @*<div class="input">
+                                            <label>Interest Amount</label>
+                                            <input id="amount2" value="37,32" />
+                                        </div>
+                                        <div class="input">
+                                            <label>Total Payment</label>
+                                            <input id="total" value="13448.23" />
+                                        </div>*@
+                                    <div class="input">
+                                        <a class="button_fat" onclick="calculation()">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing section -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                <div class="row row-15">
+                    <div class="pricing_help col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div>
+                            <img src="~/app-assets/images/help.png" alt="" /><br />
+                            <h5>Need Help?</h5>
+                            <p>
+                                Contact our customer support team if you have any further questions.<br />
+                                We are heare to help you out
+                            </p>
+                            <div class="row contact">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <span>0207 018 6767</span>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <a href="mailto:Hello@govtaxincentives.com">Hello@govtaxincentives.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Solutions section -->
+    <section class="solutions-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="solutions-text col-lg-6 col-md-7 col-sm-7 col-xs-12">
+                            <h5>Our Average Client Receives</h5>
+                            <p>
+                                These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled
+                                and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.
+                                But in certain circumstances and owing to the claims.
+                            </p>
+                            <ul>
+                                <li><strong>692%</strong> Campaign ROI Exceeds</li>
+                                <li><strong>8x</strong> the number of keywords sending traffic to your site</li>
+                                <li><strong>296%</strong>increase in organic traffic</li>
+                            </ul>
+                            <div><a href="#" class="button_fat">Order now</a><a class="button_flat" href="#">Read more</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="testi_heading">
+                        <h5>What Our Client Say</h5>
+                    </div>
+                    <div class="owl-testimonials owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testi_block">
+                                <img src="~/app-assets/images/testi2.png" alt="" /><br />
+                                <span class="name">Stephen Hill</span>
+                                <p>
+                                    "On the other hand, we denounce with
+                                    righteous indignation and dislike men
+                                    so beguiled"
+                                </p>
+                                <span class="whois">SEO Analyst</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testi_block">
+                                <img src="~/app-assets/images/testi1.png" alt="" /><br />
+                                <span class="name">Jacqueline Bowman</span>
+                                <p>
+                                    "Demoralized by the charms of pleasure
+                                    of the moment, so blinded by desire, that
+                                    they cannot foresee the pain"
+                                </p>
+                                <span class="whois">Marketing Manager</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testi_block">
+                                <img src="~/app-assets/images/testi3.png" alt="" /><br />
+                                <span class="name">Rafaela Meyers</span>
+                                <p>
+                                    "On the other hand, we denounce with
+                                    righteous indignation and dislike men so
+                                    beguiled"
+                                </p>
+                                <span class="whois">Director</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testi_block">
+                                <img src="~/app-assets/images/testi2.png" alt="" /><br />
+                                <span class="name">Stephen Hill</span>
+                                <p>
+                                    "On the other hand, we denounce with
+                                    righteous indignation and dislike men
+                                    so beguiled"
+                                </p>
+                                <span class="whois">SEO Analyst</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testi_block">
+                                <img src="~/app-assets/images/testi1.png" alt="" /><br />
+                                <span class="name">Jacqueline Bowman</span>
+                                <p>
+                                    "Demoralized by the charms of pleasure
+                                    of the moment, so blinded by desire, that
+                                    they cannot foresee the pain"
+                                </p>
+                                <span class="whois">Marketing Manager</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testi_block">
+                                <img src="~/app-assets/images/testi3.png" alt="" /><br />
+                                <span class="name">Rafaela Meyers</span>
+                                <p>
+                                    "On the other hand, we denounce with
+                                    righteous indignation and dislike men so
+                                    beguiled"
+                                </p>
+                                <span class="whois">Director</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testi_block">
+                                <img src="~/app-assets/images/testi2.png" alt="" /><br />
+                                <span class="name">Stephen Hill</span>
+                                <p>
+                                    "On the other hand, we denounce with
+                                    righteous indignation and dislike men
+                                    so beguiled"
+                                </p>
+                                <span class="whois">SEO Analyst</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testi_block">
+                                <img src="~/app-assets/images/testi1.png" alt="" /><br />
+                                <span class="name">Jacqueline Bowman</span>
+                                <p>
+                                    "Demoralized by the charms of pleasure
+                                    of the moment, so blinded by desire, that
+                                    they cannot foresee the pain"
+                                </p>
+                                <span class="whois">Marketing Manager</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testi_block">
+                                <img src="~/app-assets/images/testi3.png" alt="" /><br />
+                                <span class="name">Rafaela Meyers</span>
+                                <p>
+                                    "On the other hand, we denounce with
+                                    righteous indignation and dislike men so
+                                    beguiled"
+                                </p>
+                                <span class="whois">Director</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="testi_logo logo1" href="#"><img src="~/app-assets/images/logo1.png" alt="" /></a>
+                    <a class="testi_logo logo2" href="#"><img src="~/app-assets/images/logo2.png" alt="" /></a>
+                    <a class="testi_logo logo3" href="#"><img src="~/app-assets/images/logo3.png" alt="" /></a>
+                    <a class="testi_logo logo4" href="#"><img src="~/app-assets/images/logo4.png" alt="" /></a>
+                    <a class="testi_logo logo5" href="#"><img src="~/app-assets/images/logo5.png" alt="" /></a>
+                    <a class="testi_logo logo6" href="#"><img src="~/app-assets/images/logo6.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="contact-text col-lg-6 col-md-7 col-sm-7 col-xs-12">
+                        <h5>Operator-Assist Feature</h5>
+                        <strong>Standart Operator Assist</strong>
+                        <p>
+                            Which toil and pain can procure him some great pleasure. To take a trivial example,
+                            which of us ever undertakes laborious physical exercise?
+                        </p>
+                        <strong>Premium Operator Assist</strong>
+                        <p>
+                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                            pain was born and I will give you a complete account of the system,
+                            and expound the actual teachings of the great explorer of the truth?
+                        </p>
+                        <div><a href="#" class="button_fat">Contact us</a><a class="button_flat" href="#">Call now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner section -->
+    <section class="banner-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <h2>Try Our Perfect Services For <strong>FREE</strong></h2>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a class="button_flat" href="#">14 Days Free Trial</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row row-15">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer_sec_1 footer-text col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <h6>About us</h6>
+                        <p>
+                            We are a team of Technical experts and Accountancy & Tax professionals helping companies access Government Tax Incentives.
+                            Our combined expertise has assisted over 250 companies access over £20 million from Government Incentives.
+                            Companies instruct us as their trusted advisers, and we remain trusted advisers because we care. Our care has translated into the following client journey.
+
+                        </p>
+                        <span><img src="~/app-assets/images/adress.png" alt="" />797 London Road, London, CR7 6AW</span>
+                        <span><img src="~/app-assets/images/mail.png" alt="" />Hello@govtaxincentives.com</span>
+                        <span><img src="~/app-assets/images/phone.png" alt="" />0207 018 6767</span>
+                        <a class="first_link facebook" href="#"><img src="~/app-assets/images/f_b.png" alt="" /></a><a class="twitter" href="#"><img src="~/app-assets/images/t_b.png" alt="" /></a><a class="youtube" href="#"><img src="~/app-assets/images/y_b.png" alt="" /></a><a class="google" href="#"><img src="~/app-assets/images/g_b.png" alt="" /></a>
+                    </div>
+                    <div class="footer_sec_2 footer-text col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                        <h6>Our blog</h6>
+                        <strong><a href="#">Generating Traffic Through Search</a></strong>
+                        <p>But who has any right to find fault with a man who chooses memories</p>
+                        <span>25 / 04 /2016</span>
+                        <hr />
+                        <strong><a href="#">Today May Be Just Like Any Other Day!</a></strong>
+                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae et molestiae non recusandae</p>
+                        <span>25 / 04 /2016</span>
+                    </div>
+                    <div class="footer_sec_3 footer-text col-lg-4 col-md-5 col-sm-12 col-xs-12">
+                        <h6>Get Free Quote</h6>
+                        <div class="input input1">
+                            <input type="text" id="posName" placeholder="Name" />
+                        </div>
+                        <div class="input input2">
+                            <input class="input_2" type="text" id="posEmail" placeholder="Email" />
+                        </div>
+                        <div class="input input_text">
+                            <textarea id="posText" placeholder="Comment"></textarea>
+                        </div>
+                        <div class="button_footer"><button type="button" class="button_fat" id="send">Submit</button></div>
+                        <div class="span4">
+                            <div class="lod_bar" id='loadBar'></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copiright">
+        <span>tax adviser &#38; GTIC &#169; 2016 All Rights Reserved</span>
+        <a href="#">Made by <img src="~/app-assets/images/mw.png" alt="" /> mw templates</a>
+    </div>
+    @Scripts.Render("~/bundles/JS")
+    <script type="text/javascript">
+        var calculation_mode = null;
+        $(document).ready(function () {
+            $("#calc-btn").click(function () {
+                var focusElement = $("#calculate-section");
+                ScrollToTop(focusElement, function () { focusElement.focus(); });
+            });
+            $('input[name$="making-radio"]').change(function () {
+                calculation_mode = $(this).val();
+            })
+
+            function ScrollToTop(el, callback) {
+                $('html, body').animate({ scrollTop: $(el).offset().top - 50 }, 'slow', callback);
+            }
+
+
+        });
+        function calculation() {
+            var enhanced_uplift = 0;
+            var Enhanced_Expenditure = 0;
+            var Adjusted_loss_profit = 0;
+            var Enhanced_profit_loss = 0;
+            var Surrenderable = 0;
+            var Tax_Credit_ = 0;
+            var Original_Tax_Liability = 0;
+            var Revised_Tax_Liability = 0;
+            var Tax_Repayable = 0;
+            var Return = 0;
+            var final_result = 0;
+            var profit_loss = parseFloat($("#profit-loss-value").val());
+            var expendtr = parseFloat($("#exp-value").val());
+
+            if (calculation_mode == 'profit') {
+                enhanced_uplift = parseFloat(expendtr) * (130 / 100);
+                Enhanced_Expenditure = parseFloat(enhanced_uplift) + parseFloat(expendtr);
+                Adjusted_loss_profit = parseFloat(profit_loss);
+                Enhanced_profit_loss = parseFloat(enhanced_uplift) + parseFloat(Adjusted_loss_profit);
+                Surrenderable = 0;
+                if (parseFloat(Enhanced_Expenditure) < parseFloat(Enhanced_profit_loss) && parseFloat(Enhanced_Expenditure) > 0)
+                    Surrenderable = parseFloat(Enhanced_Expenditure);
+                else
+                    Surrenderable = parseFloat(Enhanced_profit_loss);
+
+                Tax_Credit_ = parseFloat(Surrenderable) * (14.5 / 100);
+                Original_Tax_Liability = 0;
+                Revised_Tax_Liability = 0;
+                Tax_Repayable = 0;
+                Return = parseFloat(Tax_Credit_) / parseFloat(expendtr);
+                final_result = parseFloat(Return) * 100;
+            }
+            else if (calculation_mode == 'loss') {
+
+                enhanced_uplift = parseFloat(expendtr) * (130 / 100);
+                Enhanced_Expenditure = parseFloat(enhanced_uplift) + parseFloat(expendtr);
+                Adjusted_loss_profit = parseFloat(profit_loss);
+                Enhanced_profit_loss = parseFloat(Adjusted_loss_profit) - parseFloat(enhanced_uplift);
+                Surrenderable = 0;
+
+                Tax_Credit_ = 0;
+                Original_Tax_Liability = parseFloat(Adjusted_loss_profit) * (20 / 100);
+                Revised_Tax_Liability = parseFloat(Enhanced_profit_loss) * (20 / 100);;
+                Tax_Repayable = parseFloat(Original_Tax_Liability) - parseFloat(Revised_Tax_Liability);
+                Return = parseFloat(Tax_Repayable) / parseFloat(expendtr);
+                final_result = parseFloat(Return) * 100;
+            }
+            console.log(profit_loss);
+            console.log(expendtr);
+            console.log(enhanced_uplift);
+            console.log(Enhanced_Expenditure);
+            console.log(Adjusted_loss_profit);
+            console.log(Enhanced_profit_loss);
+            console.log(Surrenderable);
+            console.log(Tax_Credit_);
+            console.log(Original_Tax_Liability);
+            console.log(Revised_Tax_Liability);
+            console.log(Tax_Repayable);
+            console.log(Return);
+            console.log(final_result);
+            $('#total-saving').val(final_result);
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E8AF1191-449A-4C92-9871-9A30ECEF5B1C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GTIC</RootNamespace>
+    <AssemblyName>GTIC</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app-assets\css\adaptive.css" />
+    <Content Include="app-assets\css\bootstrap.css" />
+    <Content Include="app-assets\css\flexnav.css" />
+    <Content Include="app-assets\css\font-awesome.css" />
+    <Content Include="app-assets\css\owl.carousel.css" />
+    <Content Include="app-assets\css\owl.theme.css" />
+    <Content Include="app-assets\css\style.css" />
+    <Content Include="app-assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="app-assets\images\about-us.jpg" />
+    <Content Include="app-assets\images\adress.png" />
+    <Content Include="app-assets\images\arr-d.png" />
+    <Content Include="app-assets\images\arr.png" />
+    <Content Include="app-assets\images\arr2.png" />
+    <Content Include="app-assets\images\arr3.png" />
+    <Content Include="app-assets\images\arr_com.png" />
+    <Content Include="app-assets\images\banner_bg.jpg" />
+    <Content Include="app-assets\images\blog-post-1.jpg" />
+    <Content Include="app-assets\images\blog-post-img-1.jpg" />
+    <Content Include="app-assets\images\blog-sl.jpg" />
+    <Content Include="app-assets\images\calculate_bg.jpg" />
+    <Content Include="app-assets\images\com-1.png" />
+    <Content Include="app-assets\images\com-2.png" />
+    <Content Include="app-assets\images\com-3.png" />
+    <Content Include="app-assets\images\com-4.png" />
+    <Content Include="app-assets\images\com-5.png" />
+    <Content Include="app-assets\images\contact_bg.jpg" />
+    <Content Include="app-assets\images\faq.png" />
+    <Content Include="app-assets\images\faq2.png" />
+    <Content Include="app-assets\images\favicon.ico" />
+    <Content Include="app-assets\images\flick1.jpg" />
+    <Content Include="app-assets\images\flick2.jpg" />
+    <Content Include="app-assets\images\flick3.jpg" />
+    <Content Include="app-assets\images\flick4.jpg" />
+    <Content Include="app-assets\images\flick5.jpg" />
+    <Content Include="app-assets\images\flick6.jpg" />
+    <Content Include="app-assets\images\flick7.jpg" />
+    <Content Include="app-assets\images\flick8.jpg" />
+    <Content Include="app-assets\images\f_b.png" />
+    <Content Include="app-assets\images\f_b2.png" />
+    <Content Include="app-assets\images\f_b3.png" />
+    <Content Include="app-assets\images\go-go.png" />
+    <Content Include="app-assets\images\g_b.png" />
+    <Content Include="app-assets\images\g_b2.png" />
+    <Content Include="app-assets\images\g_b3.png" />
+    <Content Include="app-assets\images\g_icon.png" />
+    <Content Include="app-assets\images\header_main.jpg" />
+    <Content Include="app-assets\images\help.png" />
+    <Content Include="app-assets\images\hr.png" />
+    <Content Include="app-assets\images\indirect-1.jpg" />
+    <Content Include="app-assets\images\li.png" />
+    <Content Include="app-assets\images\logo.png" />
+    <Content Include="app-assets\images\logo1-2.png" />
+    <Content Include="app-assets\images\logo1.png" />
+    <Content Include="app-assets\images\logo2-2.png" />
+    <Content Include="app-assets\images\logo2.png" />
+    <Content Include="app-assets\images\logo3-2.png" />
+    <Content Include="app-assets\images\logo3.png" />
+    <Content Include="app-assets\images\logo4-2.png" />
+    <Content Include="app-assets\images\logo4.png" />
+    <Content Include="app-assets\images\logo5-2.png" />
+    <Content Include="app-assets\images\logo5.png" />
+    <Content Include="app-assets\images\logo6-2.png" />
+    <Content Include="app-assets\images\logo6.png" />
+    <Content Include="app-assets\images\logo_2.png" />
+    <Content Include="app-assets\images\mail.png" />
+    <Content Include="app-assets\images\mw.png" />
+    <Content Include="app-assets\images\next.jpg" />
+    <Content Include="app-assets\images\offer1.png" />
+    <Content Include="app-assets\images\offer2.png" />
+    <Content Include="app-assets\images\offer3.png" />
+    <Content Include="app-assets\images\offer4.png" />
+    <Content Include="app-assets\images\offer5.png" />
+    <Content Include="app-assets\images\offer6.png" />
+    <Content Include="app-assets\images\offers_bg.png" />
+    <Content Include="app-assets\images\phone.png" />
+    <Content Include="app-assets\images\picture-1.jpg" />
+    <Content Include="app-assets\images\plus_minus.png" />
+    <Content Include="app-assets\images\post-author.jpg" />
+    <Content Include="app-assets\images\post-button1.png" />
+    <Content Include="app-assets\images\post-button2.png" />
+    <Content Include="app-assets\images\post-button3.png" />
+    <Content Include="app-assets\images\post-video.jpg" />
+    <Content Include="app-assets\images\post2.jpg" />
+    <Content Include="app-assets\images\post3.jpg" />
+    <Content Include="app-assets\images\post4.jpg" />
+    <Content Include="app-assets\images\prev.jpg" />
+    <Content Include="app-assets\images\quots.png" />
+    <Content Include="app-assets\images\rec-post-1.jpg" />
+    <Content Include="app-assets\images\rt-f.png" />
+    <Content Include="app-assets\images\rt-g.png" />
+    <Content Include="app-assets\images\rt-t.png" />
+    <Content Include="app-assets\images\r_quots.png" />
+    <Content Include="app-assets\images\solutions_bg.jpg" />
+    <Content Include="app-assets\images\status.jpg" />
+    <Content Include="app-assets\images\status_sm.png" />
+    <Content Include="app-assets\images\subscr.png" />
+    <Content Include="app-assets\images\team-member.jpg" />
+    <Content Include="app-assets\images\team1.jpg" />
+    <Content Include="app-assets\images\team2.jpg" />
+    <Content Include="app-assets\images\team3.jpg" />
+    <Content Include="app-assets\images\team4.jpg" />
+    <Content Include="app-assets\images\team5.jpg" />
+    <Content Include="app-assets\images\team6.jpg" />
+    <Content Include="app-assets\images\testi1.png" />
+    <Content Include="app-assets\images\testi2.png" />
+    <Content Include="app-assets\images\testi3.png" />
+    <Content Include="app-assets\images\tip1.png" />
+    <Content Include="app-assets\images\tip1bg.png" />
+    <Content Include="app-assets\images\tip2.png" />
+    <Content Include="app-assets\images\tip2bg.png" />
+    <Content Include="app-assets\images\tip3.png" />
+    <Content Include="app-assets\images\tip3bg.png" />
+    <Content Include="app-assets\images\top-post-1.jpg" />
+    <Content Include="app-assets\images\top-post-2.jpg" />
+    <Content Include="app-assets\images\top-post-3.jpg" />
+    <Content Include="app-assets\images\tr-g.png" />
+    <Content Include="app-assets\images\t_b.png" />
+    <Content Include="app-assets\images\t_b2.png" />
+    <Content Include="app-assets\images\t_b3.png" />
+    <Content Include="app-assets\images\un-li.png" />
+    <Content Include="app-assets\images\y_b.png" />
+    <Content Include="app-assets\images\y_b2.png" />
+    <Content Include="app-assets\js\bootstrap.min.js" />
+    <Content Include="app-assets\js\contact_main.js" />
+    <Content Include="app-assets\js\custom.js" />
+    <Content Include="app-assets\js\flexnav.js" />
+    <Content Include="app-assets\js\googlemaps.js" />
+    <Content Include="app-assets\js\jflickrfeed.min.js" />
+    <Content Include="app-assets\js\jquery.js" />
+    <Content Include="app-assets\js\owl.carousel.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <Content Include="app-assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="app-assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="app-assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="app-assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="app-assets\fonts\FontAwesome.otf" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\shahan.cshtml" />
+    <None Include="Properties\PublishProfiles\MvcTestPublish.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12678</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/GTIC</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
